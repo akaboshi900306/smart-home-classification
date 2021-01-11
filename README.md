@@ -1,7 +1,7 @@
 # smart-home-classification
 # Problem Statement: 
 
-Certifing SKUs as Smart Home is time consuming/lengthy process。
+Certifing SKUs as Smart Home is time consuming/lengthy process.
 Can we apply some traditional Machine Learning techniques to help automate/assist with this process？
 
 
@@ -36,11 +36,11 @@ attribute data
 Here we apply some natural language processing techniques such as Tokenization, Lemmatization, and Stemming Tokenization: is, a function that will split your text into single words and removes punctuation 
 
 
-# Lemmatization: 
+## Lemmatization: 
 words in third-person are changed to first person, and verbs in past and future tenses are changed into present (for example, goes, went, and gone all become go) 
 
 
-# Stemming: 
+## Stemming: 
 removes the inflection, reducing the word to its root (for example, shoes becomes shoe)
 
 
@@ -48,7 +48,7 @@ removes the inflection, reducing the word to its root (for example, shoes become
 In a nutshell this an algorithm to extract features in text and transforms text into a meaningful representation of numbers 
 # 5) Model: 
 
-# Random Forest 
+## Random Forest 
 Pros: Non Linear Model Do not have to scale variables Robustness to outliers Does not assume data is normally distributed 
 Averages Predictions together (wisdom of the crowd) Perform Automatic Feature Selection Suggests a good indicator of feature importance Quick to train 
 Can handle large amounts of data 
